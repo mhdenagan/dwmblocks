@@ -11,7 +11,7 @@ static const Block blocks[] = {
     {"",    "sb-doppler",   0,  13},
 	{"",	"sb-volume",	0,	10},
     {"🌍 ", "xkb.sh",       0,  22},
-    {"",    "sb-internet",  15,  4},
+    /*{"",    "sb-internet",  15,  4},*/
 	{"",	"sb-battery",	5,	3},
 	{"",	"sb-clock", 	60,	1},
 };
