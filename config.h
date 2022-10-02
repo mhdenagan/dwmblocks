@@ -8,6 +8,7 @@ static const Block blocks[] = {
     {"",    "mailbox.sh",   3600,  12},
     {"",    "sb-torrent",   15, 7},
     {"",    "vreme",        3600,   5},
+    {"",    "sb-forecast",  0,  20},
     {"",    "sb-doppler",   0,  13},
 	{"",	"sb-volume",	0,	10},
     {"🌍 ", "xkb.sh",       0,  22},
