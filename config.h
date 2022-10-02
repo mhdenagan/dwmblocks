@@ -3,16 +3,19 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
     {"",    "cat /tmp/recordingicon 2>/dev/null",   0,  9},
     {"",	"sb-music",     0,	11},
+    {"",    "sb-usb",       0,  2},
     {"",    "sb-pacpackages",   0,  8},
 	{"",	"sb-news",      0,	6},
     {"",    "mailbox.sh",   3600,  12},
     {"",    "sb-torrent",   15, 7},
     {"",    "vreme",        3600,   5},
     {"",    "sb-forecast",  0,  20},
-    {"",    "sb-doppler",   0,  13},
+    /*{"",    "sb-doppler",   0,  13},*/
 	{"",	"sb-volume",	0,	10},
+    {"",    "sb-disk /home",    3600,   4},
+    {"",    "sb-disk",      3600,   14},
     {"🌍 ", "xkb.sh",       0,  22},
-    /*{"",    "sb-internet",  15,  4},*/
+    /*{"",    "sb-internet",  15,  15},*/
 	{"",	"sb-battery",	5,	3},
 	{"",	"sb-clock", 	60,	1},
 };
